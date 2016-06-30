@@ -6,7 +6,7 @@ $("document").ready(function(){
 
 function injectContentByName(name){
   $.ajax({
-    url:"http://localhost/proyectos/TP-WEB-1-PlayoffsNBA-2/" + name +".html",
+    url:name +".html",
     method:"GET",
     dataType:"html",
     success: function(resultData){

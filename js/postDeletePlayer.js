@@ -65,7 +65,7 @@ function getJugadoresAdmin(){
 
 function injectAdminHtml(){
   $.ajax({
-    url:"http://localhost/proyectos/TP-WEB-1-PlayoffsNBA-2/adminJugadores.html",
+    url:"adminJugadores.html",
     method:"GET",
     dataType:"html",
     success: function(resultData){
